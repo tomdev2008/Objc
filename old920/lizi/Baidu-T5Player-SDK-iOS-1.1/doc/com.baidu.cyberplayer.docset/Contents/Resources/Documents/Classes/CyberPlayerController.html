@@ -1,0 +1,2081 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CyberPlayerController Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="百度 1.1 (build 818)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">cyberplayer </a></h1>
+				<a id="developerHome" href="../index.html">Cyberplayer</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CyberPlayerController Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/contentString">&nbsp;&nbsp;&nbsp;&nbsp;contentString</option>
+	
+	<option value="//api/name/contentURL">&nbsp;&nbsp;&nbsp;&nbsp;contentURL</option>
+	
+	<option value="//api/name/currentPlaybackTime">&nbsp;&nbsp;&nbsp;&nbsp;currentPlaybackTime</option>
+	
+	<option value="//api/name/duration">&nbsp;&nbsp;&nbsp;&nbsp;duration</option>
+	
+	<option value="//api/name/initialPlaybackTime">&nbsp;&nbsp;&nbsp;&nbsp;initialPlaybackTime</option>
+	
+	<option value="//api/name/isPreparedToPlay">&nbsp;&nbsp;&nbsp;&nbsp;isPreparedToPlay</option>
+	
+	<option value="//api/name/naturalSize">&nbsp;&nbsp;&nbsp;&nbsp;naturalSize</option>
+	
+	<option value="//api/name/playableDuration">&nbsp;&nbsp;&nbsp;&nbsp;playableDuration</option>
+	
+	<option value="//api/name/playbackState">&nbsp;&nbsp;&nbsp;&nbsp;playbackState</option>
+	
+	<option value="//api/name/scalingMode">&nbsp;&nbsp;&nbsp;&nbsp;scalingMode</option>
+	
+	<option value="//api/name/shouldAutoClearRender">&nbsp;&nbsp;&nbsp;&nbsp;shouldAutoClearRender</option>
+	
+	<option value="//api/name/shouldAutoplay">&nbsp;&nbsp;&nbsp;&nbsp;shouldAutoplay</option>
+	
+	<option value="//api/name/videoHeight">&nbsp;&nbsp;&nbsp;&nbsp;videoHeight</option>
+	
+	<option value="//api/name/videoWidth">&nbsp;&nbsp;&nbsp;&nbsp;videoWidth</option>
+	
+	<option value="//api/name/view">&nbsp;&nbsp;&nbsp;&nbsp;view</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/setBAEAPIKey:SecretKey:">&nbsp;&nbsp;&nbsp;&nbsp;+ setBAEAPIKey:SecretKey:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/getSDKVersion">&nbsp;&nbsp;&nbsp;&nbsp;- getSDKVersion</option>
+	
+	<option value="//api/name/initWithContentString:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithContentString:</option>
+	
+	<option value="//api/name/initWithContentURL:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithContentURL:</option>
+	
+	<option value="//api/name/pause">&nbsp;&nbsp;&nbsp;&nbsp;- pause</option>
+	
+	<option value="//api/name/play">&nbsp;&nbsp;&nbsp;&nbsp;- play</option>
+	
+	<option value="//api/name/prepareToPlay">&nbsp;&nbsp;&nbsp;&nbsp;- prepareToPlay</option>
+	
+	<option value="//api/name/seekTo:">&nbsp;&nbsp;&nbsp;&nbsp;- seekTo:</option>
+	
+	<option value="//api/name/start">&nbsp;&nbsp;&nbsp;&nbsp;- start</option>
+	
+	<option value="//api/name/stop">&nbsp;&nbsp;&nbsp;&nbsp;- stop</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentString">contentString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentURL">contentURL</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentPlaybackTime">currentPlaybackTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/duration">duration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initialPlaybackTime">initialPlaybackTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isPreparedToPlay">isPreparedToPlay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/naturalSize">naturalSize</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/playableDuration">playableDuration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/playbackState">playbackState</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scalingMode">scalingMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldAutoClearRender">shouldAutoClearRender</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldAutoplay">shouldAutoplay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/videoHeight">videoHeight</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/videoWidth">videoWidth</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/view">view</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBAEAPIKey:SecretKey:">setBAEAPIKey:SecretKey:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getSDKVersion">getSDKVersion</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithContentString:">initWithContentString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithContentURL:">initWithContentURL:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pause">pause</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/play">play</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/prepareToPlay">prepareToPlay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/seekTo:">seekTo:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/start">start</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stop">stop</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CyberPlayerController Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CyberPlayerController Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CyberPlayerController.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>百度媒体云播放器iOS SDK（以下简称“播放器iOS SDK”）是百度开放云推出的iOS平台视频播放器软件开发工具包（SDK），为iOS开发者提供简单、便捷的开发接口，帮助开发者在iPad/iPhone/iPod和Apple TV设备上实现媒体播放功能。播放器SDK内嵌百度自主研发的T5播放内核，提供简单、便捷的媒体应用开发能力，具有以下的特色功能：</p>
+
+<ul>
+<li>本地全媒体格式支持
+
+<ul>
+<li>突破iOS平台对视频格式的限制，支持目前所有主流的媒体格式（mp4、avi、wmv、flv、mkv、mov、rmvb等）。</li>
+</ul>
+</li>
+<li>支持广泛的流式视频格式
+
+<ul>
+<li>支持多种格式文件渐进式和流式播放：HLS、RTMP、HTTP Pseudo-Streaming（伪流）。</li>
+</ul>
+</li>
+<li>性能强大
+
+<ul>
+<li>资源CPU/内存占用率低，视频加载速度快。</li>
+</ul>
+</li>
+<li>低门槛、高灵活度实现播放功能
+
+<ul>
+<li>简单易用的API，提供快速媒体播放功能开发和示开发例。播放器SDK提供了与系统播放器MPMoviePlayerController高度相似的调用接口。非常方便用户使用。</li>
+</ul>
+</li>
+</ul>
+
+
+<p>当本文档无法帮助您解决在开发中遇到的具体问题，请通过以下方式联系我们，百度工程师会在第一时间回复您：</p>
+
+<ul>
+<li>邮箱:  dev_support@baidu.com</li>
+</ul>
+
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithContentURL:">&ndash;&nbsp;initWithContentURL:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithContentString:">&ndash;&nbsp;initWithContentString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/prepareToPlay">&ndash;&nbsp;prepareToPlay</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/start">&ndash;&nbsp;start</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/play">&ndash;&nbsp;play</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stop">&ndash;&nbsp;stop</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pause">&ndash;&nbsp;pause</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/seekTo:">&ndash;&nbsp;seekTo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBAEAPIKey:SecretKey:">+&nbsp;setBAEAPIKey:SecretKey:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getSDKVersion">&ndash;&nbsp;getSDKVersion</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentURL">&nbsp;&nbsp;contentURL</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentString">&nbsp;&nbsp;contentString</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/view">&nbsp;&nbsp;view</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isPreparedToPlay">&nbsp;&nbsp;isPreparedToPlay</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/playbackState">&nbsp;&nbsp;playbackState</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scalingMode">&nbsp;&nbsp;scalingMode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentPlaybackTime">&nbsp;&nbsp;currentPlaybackTime</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initialPlaybackTime">&nbsp;&nbsp;initialPlaybackTime</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/videoHeight">&nbsp;&nbsp;videoHeight</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/videoWidth">&nbsp;&nbsp;videoWidth</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/naturalSize">&nbsp;&nbsp;naturalSize</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/duration">&nbsp;&nbsp;duration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/playableDuration">&nbsp;&nbsp;playableDuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldAutoplay">&nbsp;&nbsp;shouldAutoplay</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldAutoClearRender">&nbsp;&nbsp;shouldAutoClearRender</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/contentString" title="contentString"></a>
+	<h3 class="subsubtitle method-title">contentString</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenURL也能设置视频播放地址。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *contentString</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当播放器正在播放视频时，设置contenString将不会导致播放新视频。如果希望播放新视频，需要调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法。</p><div class="warning"><p><strong>Warning:</strong> yberPlayerController 当前版本不支持百度影音资源（bdhd://开头的视频资源）。</p></div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/contentURL">@property contentURL</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentURL" title="contentURL"></a>
+	<h3 class="subsubtitle method-title">contentURL</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenString也能设置视频播放地址.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSURL *contentURL</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当播放器正在播放视频时，设置contenURL将不会导致播放新视频。如果希望播放新视频，需要调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法.</p><div class="warning"><p><strong>Warning:</strong> CyberPlayerController当前并不支持播放百度影音资源（bdhd://开头的视频资源）.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/contentString">@property contentString</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentPlaybackTime" title="currentPlaybackTime"></a>
+	<h3 class="subsubtitle method-title">currentPlaybackTime</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>播放视频的当前时刻，单位为秒。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSTimeInterval currentPlaybackTime</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>currentPlaybackTime属性更改时机：</p>
+
+<ul>
+<li>视频正常播放时，如果改变currentPlaybackTime的值，将导致播放行为跳转到新的currentPlaybackTime位置播放，实现效果和调用<a href="#//api/name/seekTo:">seekTo</a>方法一致。</li>
+<li>如果在视频未播放前设置currentPlaybackTime的值，将导致播放时刻从currentPlaybackTime位置播放，实现效果和设置<a href="#//api/name/initialPlaybackTime">initialPlaybackTime</a>属性一致。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/seekTo:">- seekTo:</a></p></code></li>
+			
+			<li><code><p><a href="#//api/name/initialPlaybackTime">@property initialPlaybackTime</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/duration" title="duration"></a>
+	<h3 class="subsubtitle method-title">duration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>视频的总时长，单位为秒。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSTimeInterval duration</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>duraton的获取时机：</p>
+
+<ul>
+<li>当调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法后，并不能立即获得duration的值（默认视频时长为0）。只有播放器发送CyberPlayerLoadDidPreparedNotification通知后，duration值才有效，你可以监听CyberPlayerLoadDidPreparedNotification来获取duration的值。这也意味着<a href="#//api/name/isPreparedToPlay">isPreparedToPlay</a>值为YES时，duration值才有效。</li>
+<li>当播放网络视频时，视频时长duration的值可能会变化。</li>
+<li>如果播放直播视频，duration值恒定为0。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initialPlaybackTime" title="initialPlaybackTime"></a>
+	<h3 class="subsubtitle method-title">initialPlaybackTime</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>视频播放启动时的播放时刻，单位为秒。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSTimeInterval initialPlaybackTime</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当视频未开始播放时（此时<a href="#//api/name/isPreparedToPlay">isPreparedToPlay</a>属性为NO），为了实现改变视频播放的初始时刻，三种方式都可以达到相同效果：</p>
+
+<ul>
+<li>设置<a href="#//api/name/initialPlaybackTime">initialPlaybackTime</a>属性;</li>
+<li>设置<a href="#//api/name/currentPlaybackTime">currentPlaybackTime</a>属性:</li>
+<li>调用<a href="#//api/name/seekTo:">seekTo</a>方法。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isPreparedToPlay" title="isPreparedToPlay"></a>
+	<h3 class="subsubtitle method-title">isPreparedToPlay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当前视频是否完成初始化（只读）。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL isPreparedToPlay</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>isPreparedToPlay值的更改逻辑：</p>
+
+<ul>
+<li>当调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法后，如果播放器完成该视频的初始化，则会发送CyberPlayerLoadDidPreparedNotification通知，并将isPreparedToPlay置为YES。</li>
+<li>当调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法后，如果播放器初始化失败，则发送CyberPlayerPlaybackErrorNotification，此时isPreparedToPlay值为NO。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/prepareToPlay">- prepareToPlay</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/naturalSize" title="naturalSize"></a>
+	<h3 class="subsubtitle method-title">naturalSize</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当前视频的长宽（只读）。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGSize naturalSize</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法后，并不能立即获得naturalSize的值（默认长宽都为0）。只有播放器发送CyberPlayerLoadDidPreparedNotification通知后，naturalSize值才有效，你可以监听CyberPlayerLoadDidPreparedNotification来获取naturalSize的值。这也意味着<a href="#//api/name/isPreparedToPlay">isPreparedToPlay</a>值为YES时，naturalSize值才有效。</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/videoWidth">@property videoWidth</a></p></code></li>
+			
+			<li><code><p><a href="#//api/name/videoHeight">@property videoHeight</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/playableDuration" title="playableDuration"></a>
+	<h3 class="subsubtitle method-title">playableDuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当前可播放视频的长度（只读），单位为秒。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSTimeInterval playableDuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当播放网络视频时，playableDuration值标记着已经加载视频的最大时刻（单位为秒），也就是说如果此刻断开网络，视频播放只能到playableDuration时刻。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/playbackState" title="playbackState"></a>
+	<h3 class="subsubtitle method-title">playbackState</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当前播放器的播放状态（只读）。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CBPMoviePlaybackState playbackState</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>播放状态共5种状态，请见数据类型CBPMoviePlaybackState。</p>
+
+<pre><code>枚举数据类型，视频播放状态。
+enum {
+    CBPMoviePlaybackStateStopped,
+    CBPMoviePlaybackStatePlaying,
+    CBPMoviePlaybackStatePaused,
+    CBPMoviePlaybackStateInterrupted,
+    CBPMoviePlaybackStatePrepared 
+};
+typedef NSInteger CBPMoviePlaybackState;
+</code></pre>
+
+<p>播放器状态说明：</p>
+
+<ul>
+<li>CBPMoviePlaybackStateStopped，播放器处于停止状态。</li>
+<li>CBPMoviePlaybackStatePlaying，播放器正在播放视频。</li>
+<li>CBPMoviePlaybackStatePaused，播放器处于播放暂停状态，需要调用start或play重新回到播放状态。</li>
+<li>CBPMoviePlaybackStateInterrupte，播放器由于内部原因中断播放。</li>
+<li>CBPMoviePlaybackStatePrepared，播放器完成对视频的初始化。</li>
+</ul>
+<p>播放状态变换逻辑：</p>
+
+<ul>
+<li>播放器初始化完成后处于CBPMoviePlaybackStateStopped状态，调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法，如果完成对视频文件的初始化则进入CBPMoviePlaybackStatePrepared状态，如果对视频文件的初始化失败则进入CBPMoviePlaybackStateStopped状态。</li>
+<li>当播放器处于CBPMoviePlaybackStatePrepared状态，调用<a href="#//api/name/start">start</a>或<a href="#//api/name/play">play</a>方法进入CBPMoviePlaybackStatePlaying状态；调用<a href="#//api/name/stop">stop</a>方法回到CBPMoviePlaybackStateStopped状态。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scalingMode" title="scalingMode"></a>
+	<h3 class="subsubtitle method-title">scalingMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当前显示模式。</p>
+
+<pre><code>枚举数据类型，视频显示时的缩放模式。
+enum {
+    CBPMovieScalingModeNone,       // 无缩放
+    CBPMovieScalingModeAspectFit,  // 同比适配，某个方向会有黑边
+    CBPMovieScalingModeAspectFill, // 同比填充，某个方向的显示内容可能被裁剪
+    CBPMovieScalingModeAspect_5_4, // 5:4比例播放
+    CBPMovieScalingModeAspect_4_3, // 4:3比例播放
+    CBPMovieScalingModeAspect_16_9, // 16:9比例播放
+    CBPMovieScalingModeFill         // 满屏填充，与原始视频比例不一致
+};
+typedef NSInteger CBPMovieScalingMode;
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CBPMovieScalingMode scalingMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>显示模式共5种，请见数据类型CBPMovieScalingMode。默认模式为CBPMovieScalingModeAspectFit，同比适配，某个方向会有黑边。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldAutoClearRender" title="shouldAutoClearRender"></a>
+	<h3 class="subsubtitle method-title">shouldAutoClearRender</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>是否自动清除残留图像，默认值为NO。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL shouldAutoClearRender</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.1 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当播放完成时，屏幕上将有部分图像残留，该属性为YES时，视频播放完成后将把视频图像清除并置为黑色。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldAutoplay" title="shouldAutoplay"></a>
+	<h3 class="subsubtitle method-title">shouldAutoplay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>播放视频时是否需要自动播放，默认值为YES。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL shouldAutoplay</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>如果shouldAutoplay值为YES，则调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法后，播放器完成初始化后将自动调用<a href="#//api/name/play">play</a>方法播放视频。如果shouldAutoplay值为NO，则播放器完成初始化后将等待外部调用<a href="#//api/name/play">play</a>方法或者<a href="#//api/name/start">start</a>方法。
+开发者可以监听播放器发送的CyberPlayerLoadDidPreparedNotification通知。在收到该通知后进行其他操作并主动调用<a href="#//api/name/play">play</a>或<a href="#//api/name/start">start</a>方法开启播放。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/videoHeight" title="videoHeight"></a>
+	<h3 class="subsubtitle method-title">videoHeight</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当前视频的高（只读）。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) int videoHeight</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法后，并不能立即获得videoHeight的值（默认视频高为0）。只有播放器发送CyberPlayerLoadDidPreparedNotification通知后，videoHeight值才有效，你可以监听CyberPlayerLoadDidPreparedNotification来获取videoHeight的值。这也意味着<a href="#//api/name/isPreparedToPlay">isPreparedToPlay</a>值为YES时，videoHeight值才有效。</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/naturalSize">@property naturalSize</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/videoWidth" title="videoWidth"></a>
+	<h3 class="subsubtitle method-title">videoWidth</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>当前视频的宽（只读）。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) int videoWidth</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法后，并不能立即获得videoWidth的值（默认视频高为0）。只有播放器发送CyberPlayerLoadDidPreparedNotification通知后，videoWidth值才有效，你可以监听CyberPlayerLoadDidPreparedNotification来获取videoWidth的值。这也意味着<a href="#//api/name/isPreparedToPlay">isPreparedToPlay</a>值为YES时，videoWidth值才有效。</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/naturalSize">@property naturalSize</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/view" title="view"></a>
+	<h3 class="subsubtitle method-title">view</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>包含视频内容的view。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) UIView *view</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当前版本view内只有视频帧图像，没有控制相关组件。相当于iOS系统播放器MPMoviePlayerController的控制方式controlStyle为MPMovieControlStyleNone的效果。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/setBAEAPIKey:SecretKey:" title="setBAEAPIKey:SecretKey:"></a>
+	<h3 class="subsubtitle method-title">setBAEAPIKey:SecretKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>设置开发者API key。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)setBAEAPIKey:(NSString *)<em>ak</em> SecretKey:(NSString *)<em>sk</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>ak</em></dt>
+			<dd><p>开发者应用的API Key。</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>sk</em></dt>
+			<dd><p>开发者应用的Secret Key的前16位。</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>开发者需要使用百度账号登录<a href="http://developer.baidu.com/">百度开发者中心</a>注册成为百度开发者并创建应用，方可获取应用ID对应的API Key（即：ak）及Secret Key（即：sk）等信息。具体信息，请参考<a href="http://developer.baidu.com/">百度开发者中心</a>上的“<a href="http://developer.baidu.com/wiki/index.php?title=docs/pcs/guide/app_create">创建应用</a>”的相关介绍。
+使用CyberPlayerController SDK必须传入ak 及sk（只需前16位）参数。如果传入的sk长度大于16位则默认采取前16位。
+如果未传入ak/sk，或者ak/sk错误，将导致播放行为失败并打印<code>“Authentication fails!”</code>。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/getSDKVersion" title="getSDKVersion"></a>
+	<h3 class="subsubtitle method-title">getSDKVersion</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>获取SDK版本号。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)getSDKVersion</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>返回NSString类型的版本号。</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>当开发者反馈问题时，请使用该方法获得SDK版本号并随同问题一起反馈。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithContentString:" title="initWithContentString:"></a>
+	<h3 class="subsubtitle method-title">initWithContentString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>初始化播放器并设置播放地址，与<a href="#//api/name/initWithContentURL:">initWithContentURL</a>功能一致。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithContentString:(NSString *)<em>url</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>视频播放地址，该地址可以是本地地址或者服务器地址.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>返回CyberPlayerController对象，该对象的视频播放地址ContentURL已经初始化。此时播放器状态为CBPMoviePlaybackStateStopped.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>u该方法初始化了播放器，并设置了播放地址。但是并没有将播放器对视频文件进行初始化，需要调用 <a href="#//api/name/prepareToPlay">prepareToPlay</a>方法对视频文件进行初始化。</p><div class="warning"><p><strong>Warning:</strong> CyberPlayerController 当前版本只支持单示例的CyberPlayerController对象，多实例将导致播放异常。</p></div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/initWithContentURL:">- initWithContentURL:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithContentURL:" title="initWithContentURL:"></a>
+	<h3 class="subsubtitle method-title">initWithContentURL:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>初始化播放器并设置播放地址，与<a href="#//api/name/initWithContentString:">initWithContentString</a>功能一致。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithContentURL:(NSURL *)<em>url</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>视频播放地址，该地址可以是本地地址或者服务器地址.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>返回CyberPlayerController对象，该对象的视频播放地址ContentURL已经初始化。此时播放器状态为CBPMoviePlaybackStateStopped.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>该方法初始化了播放器，并设置了播放地址。但是并没有将播放器对视频文件进行初始化，需要调用 <a href="#//api/name/prepareToPlay">prepareToPlay</a>方法对视频文件进行初始化。</p><div class="warning"><p><strong>Warning:</strong> CyberPlayerController 当前版本只支持单示例的CyberPlayerController对象，多实例将导致播放异常。</p></div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/initWithContentString:">- initWithContentString:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pause" title="pause"></a>
+	<h3 class="subsubtitle method-title">pause</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>暂停播放当前视频。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)pause</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>pause调用逻辑：</p>
+
+<ul>
+<li>如果当前视频播放已经暂停，调用该方法将不产生任何效果。</li>
+<li>重新回到播放状态，需要调用<a href="#//api/name/play">play</a>或<a href="#//api/name/start">start</a>方法。</li>
+<li>如果调用pause方法后视频暂停播放，此时播放器状态处于CBPMoviePlaybackStatePaused。</li>
+<li>播放器内部监听了UIApplicationWillEnterForegroundNotification通知，该通知发生时如果视频仍然在播放，将自动调用pause暂停当前视频播放。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/play" title="play"></a>
+	<h3 class="subsubtitle method-title">play</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>播放当前视频，功能和<a href="#//api/name/start">start</a>一致。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)play</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>play的使用逻辑：</p>
+
+<ul>
+<li>如果调用play方法前已经调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>完成播放器对视频文件的初始化，且<a href="#//api/name/shouldAutoplay">shouldAutoplay</a>属性为NO，则调用play方法将开始播放当前视频。此时播放器状态为CBPMoviePlaybackStatePlaying。</li>
+<li>如果调用play方法前已经调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>完成播放器对视频文件的初始化，且<a href="#//api/name/shouldAutoplay">shouldAutoplay</a>属性为YES，则调用play方法将暂停播放当前视频，实现效果和pause一致。</li>
+<li>如果调用play方法前未调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>完成播放器对视频文件的初始化，则播放器自动调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>进行视频文件的初始化工作。</li>
+<li>如果调用play方法前已经调用pause暂停了正在播放的视频，则重新开始启动播放视频。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/start">- start</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/prepareToPlay" title="prepareToPlay"></a>
+	<h3 class="subsubtitle method-title">prepareToPlay</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>播放器初始化视频文件。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)prepareToPlay</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>错误码枚举数据类型</p>
+
+<ul>
+<li>CBP_ERR_NO_INPUTFILE，无视频地址。</li>
+<li>CBP_ERR_INVALID_INPUTFILE，无效的视频文件地址。</li>
+<li>CBP_ERR_NO_SUPPORT_CODEC，视频编码格式不支持。</li>
+<li>CBP_ERR_ DISPLAY，视频显示初始化失败。</li>
+<li>CBP_ERR_EIO，网络视频IO错误。</li>
+<li>CBP_ERR_UAS_ERRPARAM，参数错误。</li>
+<li>CBP_ERR_UAS_USER_NOT_EXIT，开发者账号不存在。</li>
+<li>CBP_ERR_UAS_USER_SIGN，开发者账号认证错误。</li>
+</ul>
+
+
+<p>当播放器发送CyberPlayerPlaybackErrorNotification通知时，将携带object表征错误信息，请根据错误码判断错误原因。</p>
+
+<pre><code>enum{
+    CBP_ERR_NO_INPUTFILE = 301,
+    CBP_ERR_INVALID_INPUTFILE = 302,
+    CBP_ERR_NO_SUPPORT_CODEC = 303,
+    CBP_ERR_DISPLAY = 304,
+    CBP_ERR_EIO = 305,
+    CBP_ERR_UAS_ERRPARAM = 513,
+    CBP_ERR_UAS_USER_NOT_EXIST = 543,
+    CBP_ERR_UAS_USER_SIGN = 546
+};
+typedef NSInteger CBPErrorCode;
+</code></pre><p>通知类型</p>
+
+<pre><code>//播放器完成对视频文件的初始化时发送该通知
+CBP_EXTERN NSString * const CyberPlayerLoadDidPreparedNotification; 
+//播放器播放完成发送该通知。
+CBP_EXTERN NSString * const CyberPlayerPlaybackDidFinishNotification;
+//播放器开始缓冲视频时发送该通知。
+CBP_EXTERN NSString * const CyberPlayerStartCachingNotification;
+//播放器缓冲视频过程中不断发送该通知。
+CBP_EXTERN NSString * const CyberPlayerGotCachePercentNotification;
+//播放器播放失败发送该通知。
+CBP_EXTERN NSString * const CyberPlayerPlaybackErrorNotification;
+//播放器播放位置改变完成后发送该通知。
+CBP_EXTERN NSString * const CyberPlayerSeekingDidFinishNotification;
+//播放器播放状态改变后发送该通知。
+CBP_EXTERN NSString * const CyberPlayerPlaybackStateDidChangeNotification;
+//视频文件只包含音频文件时发送该通知。
+CBP_EXTERN NSString * const CyberPlayerMeidaTypeAudioOnlyNotification;
+</code></pre>
+
+<p>通知发送时间：</p>
+
+<ul>
+<li>当播放器发送CyberPlayerLoadDidPreparedNotificationt通知时，isPreparedToPlay属性将为YES。同时naturalSize、videoHeight、videoWidth、duration属性值有效。</li>
+<li>以下多种情况会发送CyberPlayerPlaybackDidFinishNotification通知：
+
+<ul>
+<li>当调用stop停止视频；</li>
+<li>视频正常播放完成；</li>
+<li>视频播放失败；</li>
+<li>调用prepareToPlay初始化视频文件失败。</li>
+</ul>
+</li>
+<li>当播放网络视频文件时，开始进行缓冲则发送CyberPlayerStartCachingNotification通知。网络视频播放过程中该通知会在以下几种情况下触发：
+
+<ul>
+<li>网络状况不佳；</li>
+<li>调用了<a href="#//api/name/seekTo:">seekTo</a>方法；</li>
+<li>设置了<a href="#//api/name/currentPlaybackTime">currentPlaybackTime</a>属性。</li>
+</ul>
+</li>
+<li>以下多种情况会发生CyberPlayerPlaybackErrorNotification通知，失败原因请参考CBPErrorCode失败类型：
+
+<ul>
+<li>调用prepareToPlay初始化视频文件失败；</li>
+<li>播放过程中播放失败；</li>
+</ul>
+</li>
+<li>当调用了<a href="#//api/name/seekTo:">seekTo</a>方法或者设置了<a href="#//api/name/currentPlaybackTime">currentPlaybackTime</a>属性，则将播放位置切换到指定位置。如果切换位置完成，则发送CyberPlayerPlaybackDidFinishNotification通知。如果新位置切换不成功，则将导致播放失败并发送CyberPlayerPlaybackErrorNotification通知。</li>
+<li>播放状态<a href="#//api/name/playbackState">playbackState</a>类型请见CBPMoviePlaybackState，如果发生改变则发送CyberPlayerPlaybackStateDidChangeNotification通知。建议开发者监听该通知，并根据播放状态<a href="#//api/name/playbackState">playbackState</a>属性不同更新相关UI状态显示。</li>
+<li>当视频文件只包含音频信息时发送CyberPlayerMeidaTypeAudioOnlyNotification通知。</li>
+</ul>
+<p>prepareToPlay实现逻辑如下：</p>
+
+<ul>
+<li>当调用<a href="#//api/name/play">play</a>或<a href="#//api/name/start">start</a>方法前未调用prepareToPlay完成播放器对视频文件的初始化，则播放器自动调用prepareToPlay进行视频文件的初始化工作。</li>
+<li>当调用prepareToPlay方法前，视频正在播前视频，则播放器自动调用<a href="#//api/name/stop">stop</a>方法停止当前视频播放，当视频停止后立即开始调用prepareToPlay方法。</li>
+<li>prepareToPlay完成时，播放器发送CyberPlayerLoadDidPreparedNotification通知并将<a href="#//api/name/isPreparedToPlay">isPreparedToPlay</a>属性置为YES，此时播放器状态为CBPMoviePlaybackStatePrepared。</li>
+<li>如果prepareToPlay初始化失败，则发送CyberPlayerPlaybackErrorNotification，此时播放器状态为CBPMoviePlaybackStateStopped。CyberPlayerPlaybackErrorNotification通知中带有CBPErrorCode类型常量，表征初始化失败的原因。</li>
+<li>如果prepareToPlay完成，且<a href="#//api/name/shouldAutoplay">shouldAutoplay</a>属性为YES，则播放器自动调用<a href="#//api/name/start">start</a>或<a href="#//api/name/play">play</a>方法开始播放视频。</li>
+<li>如果prepareToPlay完成，且<a href="#//api/name/shouldAutoplay">shouldAutoplay</a>属性为NO，需要切换视频播放，需要首先调用<a href="#//api/name/stop">stop</a>方法停止当前初始化状态。然后调用setContenString或setContenURL方法改变播放视频地址，并重新调用prepareToPlay方法。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/seekTo:" title="seekTo:"></a>
+	<h3 class="subsubtitle method-title">seekTo:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>改变当前视频的播放位置，单位为秒。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)seekTo:(NSTimeInterval)<em>newPos</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newPos</em></dt>
+			<dd><p>指定新的播放位置。</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>seekto:调用逻辑,</p>
+
+<ul>
+<li>当isPreparedToPlay属性值为NO时，调用seekto方法将改变initialPlaybackTime属性值。当播放器完成视频的初始化工作后（此时isPreparedToPlay属性为YES），将从seekto方法指定的位置开始播放视频。</li>
+<li>当播放视频过程中调用seekTo，将导致从指定位置开始播放。如果当前视频为网络视频，可能触发缓冲CyberPlayerStartCachingNotification通知。如果希望在UI反应缓冲进度，请监听CyberPlayerGotCachePercentNotification通知。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/currentPlaybackTime">@property currentPlaybackTime</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/start" title="start"></a>
+	<h3 class="subsubtitle method-title">start</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>播放当前视频，功能和<a href="#//api/name/play">play</a>一致。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)start</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>start的使用逻辑：</p>
+
+<ul>
+<li>如果调用start方法前已经调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>完成播放器对视频文件的初始化，且<a href="#//api/name/shouldAutoplay">shouldAutoplay</a>属性为NO，则调用start方法将开始播放当前视频。此时播放器状态为CBPMoviePlaybackStatePlaying。</li>
+<li>如果调用start方法前已经调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>完成播放器对视频文件的初始化，且<a href="#//api/name/shouldAutoplay">shouldAutoplay</a>属性为YES，则调用start方法将暂停播放当前视频，实现效果和pause一致。</li>
+<li>如果调用start方法前未调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>完成播放器对视频文件的初始化，则播放器自动调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>进行视频文件的初始化工作。</li>
+<li>如果调用start方法前已经调用pause暂停了正在播放的视频，则重新开始启动播放视频。</li>
+</ul>
+
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/play">- play</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stop" title="stop"></a>
+	<h3 class="subsubtitle method-title">stop</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>结束当前视频的播放。</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stop</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>Available in CyberPlayerController 1.0 and later.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>调用stop结束当前播放，如果需要重新播放该视频，需要调用<a href="#//api/name/prepareToPlay">prepareToPlay</a>方法。调用stop方法后，播放器开始进入关闭当前播放的操作，操作完成将发送CyberPlayerPlaybackDidFinishNotification通知。</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CyberPlayerController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Cyberplayer. All rights reserved. (Last updated: 2013-08-07)</span><br />
+						
+						<span class="generator">Generated by <a href="http://developer.baidu.com">百度 1.1 (build 818)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

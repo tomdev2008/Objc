@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CyberPlayerController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CyberPlayerController</TokenIdentifier>
+			<Abstract type="html">百度媒体云播放器iOS SDK（以下简称“播放器iOS SDK”）是百度开放云推出的iOS平台视频播放器软件开发工具包（SDK），为iOS开发者提供简单、便捷的开发接口，帮助开发者在iPad/iPhone/iPod和Apple TV设备上实现媒体播放功能。播放器SDK内嵌百度自主研发的T5播放内核，提供简单、便捷的媒体应用开发能力，具有以下的特色功能：</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+            <Availability type="html"></Availability>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/initWithContentURL:</TokenIdentifier>
+			<Abstract type="html">初始化播放器并设置播放地址，与initWithContentString功能一致。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/initWithContentString:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id)initWithContentURL:(NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">视频播放地址，该地址可以是本地地址或者服务器地址.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">返回CyberPlayerController对象，该对象的视频播放地址ContentURL已经初始化。此时播放器状态为CBPMoviePlaybackStateStopped.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithContentURL:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/initWithContentString:</TokenIdentifier>
+			<Abstract type="html">初始化播放器并设置播放地址，与initWithContentURL功能一致。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/initWithContentURL:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id)initWithContentString:(NSString *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">视频播放地址，该地址可以是本地地址或者服务器地址.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">返回CyberPlayerController对象，该对象的视频播放地址ContentURL已经初始化。此时播放器状态为CBPMoviePlaybackStateStopped.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithContentString:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/prepareToPlay</TokenIdentifier>
+			<Abstract type="html">播放器初始化视频文件。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)prepareToPlay</Declaration>
+			
+			
+			<Anchor>//api/name/prepareToPlay</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/start</TokenIdentifier>
+			<Abstract type="html">播放当前视频，功能和play一致。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/play</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/play</TokenIdentifier>
+			<Abstract type="html">播放当前视频，功能和start一致。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/start</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)play</Declaration>
+			
+			
+			<Anchor>//api/name/play</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/stop</TokenIdentifier>
+			<Abstract type="html">结束当前视频的播放。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/pause</TokenIdentifier>
+			<Abstract type="html">暂停播放当前视频。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/seekTo:</TokenIdentifier>
+			<Abstract type="html">改变当前视频的播放位置，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/currentPlaybackTime</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)seekTo:(NSTimeInterval)newPos</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newPos</Name>
+					<Abstract type="html">指定新的播放位置。</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/seekTo:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CyberPlayerController/setBAEAPIKey:SecretKey:</TokenIdentifier>
+			<Abstract type="html">设置开发者API key。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>+ (void)setBAEAPIKey:(NSString *)ak SecretKey:(NSString *)sk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>ak</Name>
+					<Abstract type="html">开发者应用的API Key。</Abstract>
+				</Parameter><Parameter>
+					<Name>sk</Name>
+					<Abstract type="html">开发者应用的Secret Key的前16位。</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBAEAPIKey:SecretKey:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/getSDKVersion</TokenIdentifier>
+			<Abstract type="html">获取SDK版本号。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getSDKVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">返回NSString类型的版本号。</Abstract></ReturnValue>
+			<Anchor>//api/name/getSDKVersion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setContentURL:</TokenIdentifier>
+			<Abstract type="html">视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenString也能设置视频播放地址.</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentString</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSURL *contentURL</Declaration>
+			
+			
+			<Anchor>//api/name/contentURL</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/contentURL</TokenIdentifier>
+			<Abstract type="html">视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenString也能设置视频播放地址.</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentString</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSURL *contentURL</Declaration>
+			
+			
+			<Anchor>//api/name/contentURL</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentURL</TokenIdentifier>
+			<Abstract type="html">视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenString也能设置视频播放地址.</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentString</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSURL *contentURL</Declaration>
+			
+			
+			<Anchor>//api/name/contentURL</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setContentString:</TokenIdentifier>
+			<Abstract type="html">视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenURL也能设置视频播放地址。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *contentString</Declaration>
+			
+			
+			<Anchor>//api/name/contentString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/contentString</TokenIdentifier>
+			<Abstract type="html">视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenURL也能设置视频播放地址。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *contentString</Declaration>
+			
+			
+			<Anchor>//api/name/contentString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentString</TokenIdentifier>
+			<Abstract type="html">视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenURL也能设置视频播放地址。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/contentURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, copy) NSString *contentString</Declaration>
+			
+			
+			<Anchor>//api/name/contentString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setView:</TokenIdentifier>
+			<Abstract type="html">包含视频内容的view。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UIView *view</Declaration>
+			
+			
+			<Anchor>//api/name/view</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/view</TokenIdentifier>
+			<Abstract type="html">包含视频内容的view。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UIView *view</Declaration>
+			
+			
+			<Anchor>//api/name/view</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/view</TokenIdentifier>
+			<Abstract type="html">包含视频内容的view。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) UIView *view</Declaration>
+			
+			
+			<Anchor>//api/name/view</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setIsPreparedToPlay:</TokenIdentifier>
+			<Abstract type="html">当前视频是否完成初始化（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/prepareToPlay</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BOOL isPreparedToPlay</Declaration>
+			
+			
+			<Anchor>//api/name/isPreparedToPlay</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/isPreparedToPlay</TokenIdentifier>
+			<Abstract type="html">当前视频是否完成初始化（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/prepareToPlay</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BOOL isPreparedToPlay</Declaration>
+			
+			
+			<Anchor>//api/name/isPreparedToPlay</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/isPreparedToPlay</TokenIdentifier>
+			<Abstract type="html">当前视频是否完成初始化（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/prepareToPlay</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BOOL isPreparedToPlay</Declaration>
+			
+			
+			<Anchor>//api/name/isPreparedToPlay</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setPlaybackState:</TokenIdentifier>
+			<Abstract type="html">当前播放器的播放状态（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CBPMoviePlaybackState playbackState</Declaration>
+			
+			
+			<Anchor>//api/name/playbackState</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/playbackState</TokenIdentifier>
+			<Abstract type="html">当前播放器的播放状态（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CBPMoviePlaybackState playbackState</Declaration>
+			
+			
+			<Anchor>//api/name/playbackState</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/playbackState</TokenIdentifier>
+			<Abstract type="html">当前播放器的播放状态（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CBPMoviePlaybackState playbackState</Declaration>
+			
+			
+			<Anchor>//api/name/playbackState</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setScalingMode:</TokenIdentifier>
+			<Abstract type="html">当前显示模式。
+
+    枚举数据类型，视频显示时的缩放模式。
+    enum {
+        CBPMovieScalingModeNone,       // 无缩放
+        CBPMovieScalingModeAspectFit,  // 同比适配，某个方向会有黑边
+        CBPMovieScalingModeAspectFill, // 同比填充，某个方向的显示内容可能被裁剪
+        CBPMovieScalingModeAspect54, // 5:4比例播放
+        CBPMovieScalingModeAspect43, // 4:3比例播放
+        CBPMovieScalingModeAspect169, // 16:9比例播放
+        CBPMovieScalingModeFill         // 满屏填充，与原始视频比例不一致
+    };
+    typedef NSInteger CBPMovieScalingMode;</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CBPMovieScalingMode scalingMode</Declaration>
+			
+			
+			<Anchor>//api/name/scalingMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/scalingMode</TokenIdentifier>
+			<Abstract type="html">当前显示模式。
+
+    枚举数据类型，视频显示时的缩放模式。
+    enum {
+        CBPMovieScalingModeNone,       // 无缩放
+        CBPMovieScalingModeAspectFit,  // 同比适配，某个方向会有黑边
+        CBPMovieScalingModeAspectFill, // 同比填充，某个方向的显示内容可能被裁剪
+        CBPMovieScalingModeAspect54, // 5:4比例播放
+        CBPMovieScalingModeAspect43, // 4:3比例播放
+        CBPMovieScalingModeAspect169, // 16:9比例播放
+        CBPMovieScalingModeFill         // 满屏填充，与原始视频比例不一致
+    };
+    typedef NSInteger CBPMovieScalingMode;</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CBPMovieScalingMode scalingMode</Declaration>
+			
+			
+			<Anchor>//api/name/scalingMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/scalingMode</TokenIdentifier>
+			<Abstract type="html">当前显示模式。
+
+    枚举数据类型，视频显示时的缩放模式。
+    enum {
+        CBPMovieScalingModeNone,       // 无缩放
+        CBPMovieScalingModeAspectFit,  // 同比适配，某个方向会有黑边
+        CBPMovieScalingModeAspectFill, // 同比填充，某个方向的显示内容可能被裁剪
+        CBPMovieScalingModeAspect54, // 5:4比例播放
+        CBPMovieScalingModeAspect43, // 4:3比例播放
+        CBPMovieScalingModeAspect169, // 16:9比例播放
+        CBPMovieScalingModeFill         // 满屏填充，与原始视频比例不一致
+    };
+    typedef NSInteger CBPMovieScalingMode;</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CBPMovieScalingMode scalingMode</Declaration>
+			
+			
+			<Anchor>//api/name/scalingMode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setCurrentPlaybackTime:</TokenIdentifier>
+			<Abstract type="html">播放视频的当前时刻，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/seekTo:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/initialPlaybackTime</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSTimeInterval currentPlaybackTime</Declaration>
+			
+			
+			<Anchor>//api/name/currentPlaybackTime</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/currentPlaybackTime</TokenIdentifier>
+			<Abstract type="html">播放视频的当前时刻，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/seekTo:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/initialPlaybackTime</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSTimeInterval currentPlaybackTime</Declaration>
+			
+			
+			<Anchor>//api/name/currentPlaybackTime</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/currentPlaybackTime</TokenIdentifier>
+			<Abstract type="html">播放视频的当前时刻，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/seekTo:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/initialPlaybackTime</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSTimeInterval currentPlaybackTime</Declaration>
+			
+			
+			<Anchor>//api/name/currentPlaybackTime</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setInitialPlaybackTime:</TokenIdentifier>
+			<Abstract type="html">视频播放启动时的播放时刻，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval initialPlaybackTime</Declaration>
+			
+			
+			<Anchor>//api/name/initialPlaybackTime</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/initialPlaybackTime</TokenIdentifier>
+			<Abstract type="html">视频播放启动时的播放时刻，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval initialPlaybackTime</Declaration>
+			
+			
+			<Anchor>//api/name/initialPlaybackTime</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/initialPlaybackTime</TokenIdentifier>
+			<Abstract type="html">视频播放启动时的播放时刻，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval initialPlaybackTime</Declaration>
+			
+			
+			<Anchor>//api/name/initialPlaybackTime</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setVideoHeight:</TokenIdentifier>
+			<Abstract type="html">当前视频的高（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/naturalSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) int videoHeight</Declaration>
+			
+			
+			<Anchor>//api/name/videoHeight</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/videoHeight</TokenIdentifier>
+			<Abstract type="html">当前视频的高（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/naturalSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) int videoHeight</Declaration>
+			
+			
+			<Anchor>//api/name/videoHeight</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoHeight</TokenIdentifier>
+			<Abstract type="html">当前视频的高（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/naturalSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) int videoHeight</Declaration>
+			
+			
+			<Anchor>//api/name/videoHeight</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setVideoWidth:</TokenIdentifier>
+			<Abstract type="html">当前视频的宽（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/naturalSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) int videoWidth</Declaration>
+			
+			
+			<Anchor>//api/name/videoWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/videoWidth</TokenIdentifier>
+			<Abstract type="html">当前视频的宽（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/naturalSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) int videoWidth</Declaration>
+			
+			
+			<Anchor>//api/name/videoWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoWidth</TokenIdentifier>
+			<Abstract type="html">当前视频的宽（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/naturalSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) int videoWidth</Declaration>
+			
+			
+			<Anchor>//api/name/videoWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setNaturalSize:</TokenIdentifier>
+			<Abstract type="html">当前视频的长宽（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoWidth</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoHeight</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) CGSize naturalSize</Declaration>
+			
+			
+			<Anchor>//api/name/naturalSize</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/naturalSize</TokenIdentifier>
+			<Abstract type="html">当前视频的长宽（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoWidth</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoHeight</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) CGSize naturalSize</Declaration>
+			
+			
+			<Anchor>//api/name/naturalSize</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/naturalSize</TokenIdentifier>
+			<Abstract type="html">当前视频的长宽（只读）。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoWidth</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/videoHeight</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) CGSize naturalSize</Declaration>
+			
+			
+			<Anchor>//api/name/naturalSize</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setDuration:</TokenIdentifier>
+			<Abstract type="html">视频的总时长，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/duration</TokenIdentifier>
+			<Abstract type="html">视频的总时长，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/duration</TokenIdentifier>
+			<Abstract type="html">视频的总时长，单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setPlayableDuration:</TokenIdentifier>
+			<Abstract type="html">当前可播放视频的长度（只读），单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval playableDuration</Declaration>
+			
+			
+			<Anchor>//api/name/playableDuration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/playableDuration</TokenIdentifier>
+			<Abstract type="html">当前可播放视频的长度（只读），单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval playableDuration</Declaration>
+			
+			
+			<Anchor>//api/name/playableDuration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/playableDuration</TokenIdentifier>
+			<Abstract type="html">当前可播放视频的长度（只读），单位为秒。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSTimeInterval playableDuration</Declaration>
+			
+			
+			<Anchor>//api/name/playableDuration</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setShouldAutoplay:</TokenIdentifier>
+			<Abstract type="html">播放视频时是否需要自动播放，默认值为YES。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldAutoplay</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAutoplay</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/shouldAutoplay</TokenIdentifier>
+			<Abstract type="html">播放视频时是否需要自动播放，默认值为YES。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldAutoplay</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAutoplay</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/shouldAutoplay</TokenIdentifier>
+			<Abstract type="html">播放视频时是否需要自动播放，默认值为YES。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldAutoplay</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAutoplay</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/setShouldAutoClearRender:</TokenIdentifier>
+			<Abstract type="html">是否自动清除残留图像，默认值为NO。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldAutoClearRender</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAutoClearRender</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CyberPlayerController/shouldAutoClearRender</TokenIdentifier>
+			<Abstract type="html">是否自动清除残留图像，默认值为NO。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldAutoClearRender</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAutoClearRender</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CyberPlayerController/shouldAutoClearRender</TokenIdentifier>
+			<Abstract type="html">是否自动清除残留图像，默认值为NO。</Abstract>
+			<DeclaredIn>CyberPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldAutoClearRender</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAutoClearRender</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

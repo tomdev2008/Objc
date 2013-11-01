@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6CEC83A7-DBB0-49C9-8003-2AEB31A5990F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PicDecor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1901E8CB-E9EB-45C0-A134-09B6D4ABF1C5</key>
+		<string>svn+ssh://dev.manning-sandbox.com/usr/svn/iOSInPracticeCode/ch03_code</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PicDecor/PicDecor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1901E8CB-E9EB-45C0-A134-09B6D4ABF1C5</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1901E8CB-E9EB-45C0-A134-09B6D4ABF1C5</key>
+		<string>svn+ssh://dev.manning-sandbox.com/usr/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn+ssh://dev.manning-sandbox.com/usr/svn/iOSInPracticeCode/ch03_code/PicDecor/PicDecor.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1901E8CB-E9EB-45C0-A134-09B6D4ABF1C5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1901E8CB-E9EB-45C0-A134-09B6D4ABF1C5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ch03_code</string>
+		</dict>
+	</array>
+</dict>
+</plist>
